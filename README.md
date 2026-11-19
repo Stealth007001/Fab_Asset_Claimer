@@ -1,4 +1,4 @@
-# Fab Asset Claimer V1.05
+# Fab Asset Claimer
 
 A patient, rate-limit-friendly browser script that adds **free assets on Fab.com** to your library -
 the Quixel Megascans seller page and 14 free-category pages - one at a time, at a human pace, instead of
@@ -7,6 +7,27 @@ clicking "Add to My Library" thousands of times by hand. Every session saves a *
 **Creator:** Shailesh R. Narnaware
 
 > Unofficial helper. Not affiliated with, endorsed by, or sponsored by Epic Games, Fab or Quixel.
+
+## Choose your edition
+
+Two editions live in this repository. Pick the one that fits your need - they share the same pages, browsers,
+CSV report and saved progress, so you can switch at any time.
+
+| | **Normal edition** | **Blaze edition** |
+|---|---|---|
+| Script | `Fab_Asset_Claimer_V1.05.js` | `Fab_Asset_Claimer_Blaze_V1.00.js` |
+| Speed | One item every 6-12 s, with rests | Several items at once, no fixed waiting |
+| Risk of hitting Fab's limits | Low | Higher (it slows itself down when Fab pushes back) |
+| Best for | Long, unattended runs | Quick catch-up while you watch |
+| Guide | [PDF](docs/Fab_Asset_Claimer_V1.05.pdf) | [PDF](docs/Fab_Asset_Claimer_Blaze_V1.00.pdf) |
+
+**Not sure? Start with the normal edition.** Do not run both editions at the same time.
+
+> **Blaze risk:** much faster means much more likely to hit Fab's limits. Blaze was tested against simulated
+> responses only, not yet on live Fab pages. No script can guarantee an account will never be limited or flagged.
+
+The sections below describe the **normal edition**. Blaze works the same way (same pages, same browsers, same CSV
+report); see its guide for the differences.
 
 ## Supported browsers (desktop only)
 

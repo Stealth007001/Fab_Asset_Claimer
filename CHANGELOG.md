@@ -1,5 +1,15 @@
 # Changelog
 
+## Blaze V1.00 - November 2026 (new, separate file)
+- New fast edition: `Fab_Asset_Claimer_Blaze_V1.00.js` (guide: `docs/Fab_Asset_Claimer_Blaze_V1.00.pdf`).
+- Claims several items at once (presets FAST = 2, BLAZE = 4) with no fixed waiting time.
+- Self-adjusting speed: slows down and cools off when Fab says "too many requests", speeds up after calm,
+  stops after 3 pushbacks within 3 minutes.
+- Five layers that skip items you already own; shares its memory with the normal edition.
+- Same login check, preview check, colored messages, refresh guard, status box and CSV report.
+- Note: tested against simulated Fab responses only, not yet on live pages. Higher risk than the normal edition.
+- README: new "Choose your edition" table. Blaze guide uses a red theme and explains the two editions share one repository.
+
 ## V1.05 - November 2026
 - Live countdown in the on-page status box for every pause, e.g. "Resting, 3:20 left", "Next item in 7 s",
   "Fab asked to slow down - cooling down, 5:10 left", "Preview check - starting in 8 s".
